@@ -1,0 +1,30 @@
+//Name-Darshan Soni
+//PRN-24070123034
+//Exp3
+
+//Find positive and negative number
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    float num;
+    cout<<"Enter the number: ";
+    cin>>num;
+    if(num>0){
+        cout<<"Given number is positive"<<endl;
+    }
+    else if(num<0){
+        cout<<"Given number is negative"<<endl;
+    }
+    else{
+        cout<<"Given number is zero"<<endl;
+    }
+    return 0;
+}
+
+/*
+Output
+Enter the number: -4.56
+Given number is negative
+*/
