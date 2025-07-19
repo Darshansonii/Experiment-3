@@ -26,6 +26,7 @@ If exactly 0 → it is zero
 
 Displays the result clearly to the user
 
+
 2.Calculate Student's Grade in C++
 
 This C++ program calculates a student's grade based on the marks entered for different subjects. It computes the total marks, average percentage, and then assigns a grade based on the overall percentage.
@@ -69,6 +70,7 @@ Conditional logic
 Handling multiple variables
 
 It's a practical example that demonstrates how logic is applied to solve real-world tasks like result computation.
+
 
 3.Find Coordinate Quadrant in C++
 
