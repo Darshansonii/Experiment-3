@@ -1,116 +1,47 @@
 # Experiment-3
 
-1.Find Positive or Negative Number in C++
 
-This C++ program takes a number as input from the user and determines whether the number is positive, negative, or zero.
+Aim  
+* To develop a C++ program that performs multiple decision-based tasks using if-else statements:
+  - Calculate and display a student's grade based on marks.
+  - Determine the quadrant of a point using x and y coordinates.
+  - Identify whether a number is positive, negative, or zero.
 
-It is a simple program meant to help beginners understand:
+Apparatus  
+* Computer (Laptop/Desktop)  
+* Keyboard and Mouse  
+* Power Supply  
 
-Taking input using cin
+Software Used  
+* Visual Studio Code  
+* MinGW or GCC/G++ Compiler  
+* Terminal or Command Prompt
 
-Using conditional statements (if, else if, else) for decision making
+Theory  
+* The if-else statement is a fundamental control structure in C++ that allows a program to make decisions based on conditions.  
+* It evaluates a condition and executes a block of code if the condition is true; otherwise, it moves to the next condition or executes an optional else block.  
+* In grading, if-else is used to categorize marks into grade ranges such as A, B, C, etc.  
+* For quadrant determination, the signs of x and y coordinates are checked to decide which of the four quadrants the point lies in.  
+* To determine the sign of a number, a simple comparison is done with zero using if-else conditions.  
+* This program strengthens logical thinking and decision-making using basic control flow.  
+* Understanding nested and chained if-else conditions is crucial for writing efficient and readable decision-based code.  
+* Using if-else also prepares the learner for more advanced concepts like switch-case, loops, and complex conditionals.  
+* These examples reflect real-world situations where decisions must be made based on multiple inputs or conditions.  
+* The clarity and simplicity of if-else logic make it ideal for beginners to grasp the concept of conditional execution.
+* If-else logic enables customized responses based on varying user input, which is essential in interactive applications.  
+* It provides a step-by-step flow that is easy to trace and debug during program development.  
+* The structure of if-else can be extended into nested conditions to evaluate multiple related cases efficiently.  
+* Practicing with if-else conditions lays the groundwork for handling complex validations and multiple branches in large programs.
 
-Basic number comparisons in C++
+Program Features  
+* Accepts marks and assigns a grade (A, B, C, D, F) based on range.  
+* Accepts x and y coordinates and determines the correct quadrant or axis.  
+* Accepts a number and checks whether it is positive, negative, or zero.  
+* Uses clear and simple if-else statements for all decision-making tasks.  
+* Displays clear output messages for each result.
 
-Key Features:
-
-Accepts an integer or floating-point number from the user
-
-Checks:
-
-If the number is greater than 0 → it is positive
-
-If less than 0 → it is negative
-
-If exactly 0 → it is zero
-
-Displays the result clearly to the user
-
-
-
-2.Calculate Student's Grade in C++
-
-This C++ program calculates a student's grade based on the marks entered for different subjects. It computes the total marks, average percentage, and then assigns a grade based on the overall percentage.
-
-Key Features:
-
-Takes marks for multiple subjects as input (e.g., 5 subjects)
-
-Calculates:
-
-Total marks
-
-Percentage
-
-Grade (A, B, C, D, or F)
-
-Uses conditional statements (if-else) to assign grades based on percentage
-
-Sample Grading Criteria:
-
-90% and above → Grade A
-
-80%–89% → Grade B
-
-70%–79% → Grade C
-
-60%–69% → Grade D
-
-Below 60% → Grade F
-
-Educational Purpose:
-
-This program helps beginners understand:
-
-Input and output in C++
-
-Arithmetic operations
-
-Conditional logic
-
-Handling multiple variables
-
-It's a practical example that demonstrates how logic is applied to solve real-world tasks like result computation.
-
-
-
-3.Find Coordinate Quadrant in C++
-
-This C++ program takes the X and Y coordinates of a point as input and determines which quadrant the point lies in on the 2D Cartesian plane.
-
-The plane is divided into four quadrants based on the sign of the X and Y values:
-
-Quadrant I → X > 0 and Y > 0
-
-Quadrant II → X < 0 and Y > 0
-
-Quadrant III → X < 0 and Y < 0
-
-Quadrant IV → X > 0 and Y < 0
-
-If the point lies on the X-axis, Y-axis, or origin (0,0), the program also identifies that specifically.
-
-Key Features:
-
-Takes X and Y coordinates as input
-
-Uses conditional statements to check position
-
-Displays:
-
-The correct quadrant
-
-Or if the point is on an axis or at the origin
-
-Educational Purpose:
-
-This program is great for practicing:
-
-Input handling
-
-Conditional logic (if, else if)
-
-Logical thinking based on real-world geometry
-
-It combines math and programming concepts in a simple, easy-to-understand example for beginners.
-
+Conclusion  
+* The program was successfully implemented using Visual Studio Code and compiled with the GCC compiler.  
+* It demonstrated effective use of if-else logic to solve real-world style problems.  
+* The use of conditions helped in classifying data, making decisions, and controlling program flow.  
+* This exercise strengthened foundational skills in decision-making and logical control in C++ programming.
